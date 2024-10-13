@@ -1,0 +1,68 @@
+Linux Commands:
+----------------
+ls: to list files
+cat: to view contents in the file
+echo: to insert content in the file without opening the file
+touch: to create a file
+vi: to open a file
+pwd: present working directory(folder)
+mkdir: make a directory or create a folder
+cd: change directory
+rm or rm -rf: remove the directory or remove a file
+file: to check the file type 
+zip: to compress multiple files
+unzip: to extract the compressed file
+grep: to find Specific lines or words from a long file 
+      -i: Ignore case distinctions.
+      -v: Invert the match; show lines that do not match the pattern.
+      -r: Recursively search directories.
+      -n: Show line numbers along with matching lines.
+      -l: Show only the names of files with matching lines.
+      -c: Count the number of matching lines.
+sed: to substitute(s) for replace a word 
+     to delete(d) 
+     to print(p) used to print lines which has the word required
+head: to display the first few lines (by default of 10 lines)
+tail: to display the last few lines (by default of 5 lines)
+awk: The awk command searches and manipulates regular expression patterns in a file. we can run multiple actions by listing them according to their execution order, separated by a semicolon (;). 
+sort: to rearrange a file content in a specific order
+      A - Z (NA), Z - A (-r), numbers (-n)
+Cut: Select specific sections from a file and print them as an output.
+      -f – Select a specific row field.
+      -b – cuts the line by a specified byte size.
+      -c – sections the line using a specified character.
+      -d – separates lines based on delimiters.
+diff: By default, the diff command only shows the differences between the two files.
+      to print all the content and highlight the discrepancies, enable the context format using the -c option.
+      You can also ignore case sensitivity by adding -i.
+locate: The locate command searches for a file and prints its location path.
+find: it used to search for files and directories within a file system based on various criteria like name, type, size, and more
+      -name: Search for files by name.
+      -type: Search by file type (e.g., f for regular files, d for directories).
+      -size: Search by file size.
+      -exec: Execute a command on the found files.
+      -print: Print the found files (default action).
+chmod: to change the permission of a file or a directories
+
+there are three folder and file permissions – read (r), write (w), and execute (x). You can assign them to three parties – the owner, a group, or other accounts belonging to neither category.
+Consider this example:             chmod -rwx---r-– file1.txt
+The spot after the first hyphen (–) specifies the permission for the owner of file1.txt. In the previous example, we grant them the rwx privilege.
+The next spot is for groups. Since we won’t grant them any privilege, we put three hyphens to indicate emptiness. The last slot is for other users who only have read or r permission.
+
+df: to display the storage in KB
+du: show the dick usage of the directory
+top:  displays all running processes in your system and their hardware consumption
+        -p lets you check a specific process by specifying its ID. 
+        add the -d flag to change the delay between screen updates.
+htop: manage processes in your Linux server.
+        -C enables the monochrome mode,
+        –-tree shows processes in a hierarchical view
+hostname: to check vps name and other related details
+          I to check your server’s IP address, 
+          -a to print the hostname alias,
+          -A to output the system’s fully qualified domain name (FQDN).
+
+
+
+
+  
