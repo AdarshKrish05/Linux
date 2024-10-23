@@ -44,7 +44,7 @@ find: it used to search for files and directories within a file system based on 
       -print: Print the found files (default action).
 chmod: to change the permission of a file or a directories
 
-there are three folder and file permissions – read (r), write (w), and execute (x). You can assign them to three parties – the owner, a group, or other accounts belonging to neither category.
+There are three folder and file permissions: read (r), write (w), and execute (x). You can assign them to three parties: the owner, a group, or other accounts belonging to neither category.
 Consider this example:             chmod -rwx---r-– file1.txt
 The spot after the first hyphen (–) specifies the permission for the owner of file1.txt. In the previous example, we grant them the rwx privilege.
 The next spot is for groups. Since we won’t grant them any privilege, we put three hyphens to indicate emptiness. The last slot is for other users who only have read or r permission.
@@ -61,6 +61,16 @@ hostname: to check vps name and other related details
           I to check your server’s IP address, 
           -a to print the hostname alias,
           -A to output the system’s fully qualified domain name (FQDN).
+mv: moving or renaming files or directories
+chown: change the owner for file or directory
+sudo: The sudo command in Linux allows a permitted user to execute a command to perform administrative tasks, like installing software or changing system configurations.
+
+
+
+
+
+
+
 
 
 
