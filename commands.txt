@@ -49,7 +49,7 @@ Consider this example:             chmod -rwx---r-– file1.txt
 The spot after the first hyphen (–) specifies the permission for the owner of file1.txt. In the previous example, we grant them the rwx privilege.
 The next spot is for groups. Since we won’t grant them any privilege, we put three hyphens to indicate emptiness. The last slot is for other users who only have read or r permission.
 
-df: to display the storage in KB
+df -H: to display the storage
 du: show the dick usage of the directory
 top:  displays all running processes in your system and their hardware consumption
         -p lets you check a specific process by specifying its ID. 
@@ -64,11 +64,20 @@ hostname: to check vps name and other related details
 mv: moving or renaming files or directories
 chown: change the owner for file or directory
 sudo: The sudo command in Linux allows a permitted user to execute a command to perform administrative tasks, like installing software or changing system configurations.
-
-
-
-
-
+ifconfig: which gives your IP address and other details 
+ipaddress: which gives directly your ip address
+ping: is used to test the connectivity between your computer and another networked device
+netstat: gives info about your network connection
+ps: display information about running processes
+kill: terminate a process
+useradd: add a new user to the system
+passwd: change the password for a user
+userdel: delete a user from the system
+su: switch user to become another user
+finger: displays all the information about user
+history:  display a list of previously executed commands
+sort: sort lines of text in a file or input
+uniq: remove duplicate lines from a file or input
 
 
 
